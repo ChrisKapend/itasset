@@ -1,0 +1,19 @@
+{
+  "name": "itasset",
+  "version": "1.0.0",
+  "description": "it asset management",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisKapend/itasset.git"
+  },
+  "author": "chris kapend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisKapend/itasset/issues"
+  },
+  "homepage": "https://github.com/ChrisKapend/itasset#readme"
+}
