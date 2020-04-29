@@ -1,13 +1,16 @@
 import React from 'react';
+import MenuSubItem from "../menusubitem/MenuSubItem";
+import './MenuItem.css';
 
-function MenuItem(props) {
+function MenuItem({item}) {
+    const {title, subItem} = item;
     return (
-        <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {props.title}
+        <li className="nav-item dropdown col-sm">
+            <a className="nav-link " href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {title}
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                {props.subMenu.map(element => {{<a className="dropdown-item" href="#">element</a>}})}
+                <MenuSubItem dropDownItem = {subItem}/>
             </div>
         </li>
     );

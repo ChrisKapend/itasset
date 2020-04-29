@@ -40,8 +40,7 @@ class App extends Component {
         }
         return (
             <section className={'mainApp row'}>
-                <Particles className='particles'
-                           params={particlesOptions}/>
+                {/*<Particles className='particles' params={particlesOptions}/>*/}
                 <section className={'navBar col-sm-12'}>
                     <Navigation />
                 </section>

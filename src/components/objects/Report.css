@@ -1,0 +1,31 @@
+.report{
+    padding: 5px;
+}
+.article{
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .2) 0px 0px 5px 0px;
+}
+.reportTitle{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.reportArticle{
+}
+.articleTitle{
+    text-align: center;
+}
+h5{
+    padding: 3px;
+}
+.articlePrim{
+    border: solid 1px;
+}
+.articleSec{
+    border: solid 1px;
+    justify-content: space-around;
+}
+.articleSec>section{
+    border: solid 1px;
+    margin: 5px;
+}

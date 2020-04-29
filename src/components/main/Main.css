@@ -1,0 +1,24 @@
+.mainZone{
+    justify-content: space-between !important;
+}
+.mainZone>section>h1{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.mainZone>section{
+
+}
+
+.mainApp{
+    height: 100%;
+}
+.container{
+    margin: auto;
+}
+.mainSection{
+    padding-left: 50px;
+}
+#root{
+    background-color:rgba(0,0,0,.1);
+}
